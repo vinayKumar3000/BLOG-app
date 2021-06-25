@@ -1,0 +1,47 @@
+.post{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    
+}
+.postImage{
+    width:300px;
+    height:280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCat{
+    font-size:15px;
+    color: grey;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.postTitle{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top:15px;
+}
+.postDate{
+    font-size: 13px;
+
+}
+.postDesc{
+    color:#444;
+    line-height:24px;
+    margin-top:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.postTitle:hover{
+    color:blueviolet;
+}

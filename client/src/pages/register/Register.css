@@ -1,0 +1,50 @@
+.register{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(https://www.hdnicewallpapers.com/Walls/Big/Nature%20and%20Landscape/Beautiful_Sunrising_Nature_Image.jpg);
+    background-size: cover;
+    color:black;
+}
+.registerTitle{
+   font-size: 50px;
+   padding:5px;
+   border-bottom:2px solid gray;
+}
+.registerForm{
+    display: flex;
+    flex-direction:column;
+    width: 30vw;
+   
+}
+.registerForm>label{
+    margin:10px 0;
+}
+.registerForm>input{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+}
+.registerButton{
+    margin:10px 0px;
+    background-color:teal;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    padding:6px;
+}
+.registerLoginButton{
+
+    width:30vw;
+    background-color:lightcoral;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    padding:8px;
+}
+.error{
+    text-align:center;
+    margin-bottom: 10px;
+}

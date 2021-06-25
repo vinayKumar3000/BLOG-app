@@ -1,0 +1,108 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  
+    "username":"akshay3",
+    "email":"akshay3s@gmail.com",
+    "password":"akshay3"
+  
+}
+
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  
+    "username":"akshay3",
+    
+    "password":"akshay3"
+  
+}
+###
+PUT http://localhost:5000/api/users/60d3f9df344c128e04248f33
+Content-Type: application/json
+
+{
+  "userId": "60d3f9df344c128e04248f33",
+  "username": "ganesh2",
+  "password": "ganesh2",
+  "email": "ganesh2@gmail.com",
+  "profilePic": "1624535131313parrot-6342271_1920.jpg"      
+}
+###
+DELETE http://localhost:5000/api/users/60d0870ac479bf993c53eade
+
+###
+Get http://localhost:5000/api/users/60d0870ac479bf993c53eade
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+  
+    "username":"akshay3",
+    "title":"Title Akshay 3",
+    "desc":"Title Akshay 3 Desc",
+    "photo":"random"
+}
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+  
+   {
+  "username": "sravani3",
+  "title": "Title",
+  "desc": "desc"
+  
+      
+}
+  
+}
+###
+PUT http://localhost:5000/api/posts/60d097d790322eabc4967717
+Content-Type: application/json
+
+{
+  
+    "username":"akshay2",
+    "title":"Title Akshay 2 updated",
+    "desc":"Title Akshay 2 Desc updated"
+  
+}
+
+###
+DELETE http://localhost:5000/api/posts/60d097d790322eabc4967717
+Content-Type: application/json
+{
+  
+    "username":"akshay2",
+   
+  
+}
+
+###
+Get http://localhost:5000/api/posts/60d09da35b50a8a0207aa2d1
+
+###
+GET http://localhost:5000/api/posts/
+
+###
+GET http://localhost:5000/api/posts?user=akshay2
+
+###
+POST http://localhost:5000/api/categories/
+Content-Type: application/json
+{
+    "name":"animals",
+}
+
+###
+GET http://localhost:5000/api/categories/
+
+###
